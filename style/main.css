@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    height: 100vh;
+}
+.header{
+        height: 10vh;
+        background:#512da8 ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        font-size: 40px;
+        color: #fff;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.holder{
+    
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 80%;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.bit-logo{
+    width:80px;
+}
+
+.container button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 30px;
+    display: block;
+    cursor: pointer;
+    
+}
+
+.menu-bar{
+        background-color: #512da8;
+        color: #fff;
+        font-size: 12px;
+        padding: 10px 45px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin: 30px;
+        display: block;
+        cursor: pointer;
+}
+
+.container .apex-approve{
+    padding: 10px 60px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 90vh;   
+
+}   
+.container-fluid{
+    color: #512da8;
+}
