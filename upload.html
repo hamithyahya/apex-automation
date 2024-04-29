@@ -4,18 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/upload.css">
         <title>Upload-page</title>
     </head>
     <body>
-        <div>
+        <div class="container">
             <div>
-                <p>name</p><input placeholder="Enter your name" >
+                name of the faculty
             </div>
-        </div>
-        <div>
+            <input type="text" placeholder="enter your name" >
 
+            <div>
+                Department
+            </div>
+            <input type="text" placeholder="enter your Department" >
+            
+            <div>
+                Project Title
+            </div>
+            <input type="text" placeholder="enter your Project name" >
+        
+            <div>
+                project Description
+            </div>
+            <input type="text" placeholder="description">
+            
+            <div>
+                Total amount    
+            </div>
+            <input type="number" placeholder="amount">
+            <div>
+                Upload your BOM    
+            </div>
+            <input  type="file" id="input-file">
+            <label for="input-file">Upload file</label>
+            <div></div>
+            <button class="submit-btn">SUBMIT</button>
         </div>
+       
         <script src=""></script>
     </body>
 </html>

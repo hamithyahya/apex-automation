@@ -6,3 +6,97 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
+body{
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.35);
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e2e2e2
+}
+
+input::placeholder{
+    color: #333;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 450px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0,0.35); 
+    padding: 20px; 
+    row-gap: 10px;
+    align-items: center;
+    height: 65vh;
+    min-width: 800px;
+    max-width: 80%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 13px;
+    
+}
+
+.container div{
+    margin: 10px;
+    text-transform: uppercase;
+    
+}
+
+input[type=file]   {
+   display: none;
+}
+
+label{
+    background-color: #e2e2e2;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0,0.35);
+    color: #333;
+    font-size: 12px;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0px;
+    margin-right:275px ;
+    padding-left: 40px;
+}
+
+label:active{
+    transform: scale(0.9);
+}
+
+.submit-btn{
+    background-color: #512da8;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0,0.35);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0px;
+    margin-left: 270px;
+
+}
+
+.submit-btn:active{
+    transform: scale(0.9);
+}

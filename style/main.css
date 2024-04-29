@@ -75,14 +75,24 @@ body{
 }
 
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 300px 600px;
 
-    height: 90vh;   
+    height: 200vh;   
 
 }   
+
+.container .name-div{
+    display: grid;
+    grid-template-columns: 200px 600px;
+
+}
 .container-fluid{
     color: #512da8;
+}
+
+.input-file{
+    border: none;
+    outline: none;
+
 }
