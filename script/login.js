@@ -62,7 +62,7 @@ function authenticate(){
     const mail_json = 'hamithyahya.ec21@bitsathy.ac.in';
     const password_json = 'hamYAH';
     if(mail ===  mail_json && password === password_json ){
-        window.location.assign("http://127.0.0.1:5500/upload.html");
+        window.location.assign("http://127.0.0.1:5500/main.html");
         return true;
     }
     if(mail === mail_json){

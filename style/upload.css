@@ -151,3 +151,11 @@ label:active{
 .submit-btn:active{
     transform: scale(0.9);
 }
+
+.success{
+    padding: 40px;
+    font-size: 15px;
+    height: 10vh;
+    width: 100px;
+    border-radius: 15px;
+}
